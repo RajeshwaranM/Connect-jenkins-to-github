@@ -1,5 +1,7 @@
 pipeline {
     agent any
+    
+    //this is for configure option
 
     // this section configures Jenkins options
     options {
