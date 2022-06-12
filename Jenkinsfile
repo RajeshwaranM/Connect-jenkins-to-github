@@ -1,5 +1,5 @@
 pipeline {
-    agent Agent
+    agent { label 'Agent' }
 
     // this section configures Jenkins options
     options {
